@@ -1,18 +1,47 @@
 package ecommerce;
 
 public class Product {
-    int source;
-    String description; //They're all attributes
-    double price;
+    private int source;
+    private String description; //They're all attributes
+    private double price;
+
+    public Product(int source, String description, double price){
+        //Constructor method
+        //Has the same name as the class
+        this.source = source;
+        this.description = description;
+        this.price = price;
+    }
+
+    public int getSource(int source) {
+        return source;
+    }
+
+    public void setSource(int source) {
+        this.source /*attribute*/ = source /*parameter*/;
+        //We use 'this' when there is a naming conflict
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public double getPrice(double price) {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
     void showAd() { //method
         System.out.println("----- PRODUCT ON OFFER -----");
         System.out.println(source + ": " + description);
         System.out.printf("R$ %.2f\n", price);
-    }
-
-    void changePrice(double newPrice){
-        price = newPrice;
     }
 
     void applyDiscount(double percent /*parameter*/){
