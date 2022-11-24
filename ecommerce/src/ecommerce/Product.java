@@ -13,6 +13,19 @@ public class Product {
         this.price = price;
     }
 
+    public Product(int source, String description){
+        //You can have different versions of the constructor method
+        this.source = source;
+        this.description = description;
+        this.price = 0.00;
+    }
+
+    public Product(int source){
+        this.source = source;
+        this.description = "NÃO CADASTRADO";
+        this.price = 0.00;
+    }
+
     public int getSource(int source) {
         return source;
     }
