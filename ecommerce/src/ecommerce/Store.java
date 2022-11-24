@@ -21,5 +21,20 @@ public class Store {
         product1.showAd();
         product2.showAd();
         product3.showAd();
+
+        System.out.println("Price simulation");
+        product1.applyDiscount(10);
+        product1.showAd();
+
+        product2.changePrice(55.00);
+        product2.showAd();
+
+        product3.changePrice(99.90);
+        product3.showAd();
+
+        System.out.println("Discount Simulation");
+        double priceP = product1.simulateDiscount(15);
+        System.out.printf("New price: R$ %.2f\n", priceP);
+        product1.showAd();
     }
 }
