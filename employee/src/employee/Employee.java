@@ -26,11 +26,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    public double showSalary(){
-        return getSalary();
+    public String showSalary(){
+        return this.name + " R$ " + this.salary;
     }
 
-    public void increaseSalary(double percent){
-        double increaseSalary = getSalary() - ((getSalary() * percent)/100);
+    public double increaseSalary(double percent){
+        return getSalary() + ((getSalary() * percent)/100);
     }
 }
