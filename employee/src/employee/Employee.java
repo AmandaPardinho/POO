@@ -1,11 +1,11 @@
 package employee;
 
-public class Empregado {
+public class Employee {
 
     private String name;
     private double salary;
 
-    public Empregado(String name, double salary){
+    public Employee(String name, double salary){
         this.name = name;
         this.salary = salary;
     }
