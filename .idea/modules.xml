@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/e-commerce/e-commerce.iml" filepath="$PROJECT_DIR$/e-commerce/e-commerce.iml" />
       <module fileurl="file://$PROJECT_DIR$/ecommerce/ecommerce.iml" filepath="$PROJECT_DIR$/ecommerce/ecommerce.iml" />
       <module fileurl="file://$PROJECT_DIR$/employee/employee.iml" filepath="$PROJECT_DIR$/employee/employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/time/time.iml" filepath="$PROJECT_DIR$/time/time.iml" />
     </modules>
   </component>
 </project>
