@@ -1,5 +1,13 @@
-public class Main {
+package heritage;
+
+public class University {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Person p = new Person();
+        p.setName("Amanda");
+        p.setEmail("amanda@amanda.com");
+        p.setPhone("123456789");
+
+        System.out.println(p.showInfo());
     }
 }
