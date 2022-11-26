@@ -6,7 +6,7 @@ public class ATM {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         BankAccount bankAccount;
-        bankAccount = new BankAccount(123456789, 0, "Amanda", "35689614823", 100.00);
+        bankAccount = new BankAccount(123456789, 0, "Amanda", "11122233344", 100.00);
         int functionAtm;
         int value;
         do {
