@@ -1,6 +1,6 @@
 package heritage;
 
-public class Student extends Person{
+public class Student extends Person {
     private String registrationNumber;
     private String course;
 
@@ -20,8 +20,9 @@ public class Student extends Person{
         this.course = course;
     }
 
-    public String showInfo(){
-        return
+    public String showInfo() {
+        return "Name: " + getName() + ", " + "E-mail: " + getEmail() + ", " + "Phone: " + getPhone() + ", " +
+                "Registration Number: " + registrationNumber + ", " + "Course: " + course;
 
     }
 }
