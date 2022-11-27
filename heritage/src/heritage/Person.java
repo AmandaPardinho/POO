@@ -1,9 +1,9 @@
 package heritage;
 
 public class Person {
-    private String name;
-    private String email;
-    private String phone;
+    protected String name;
+    protected String email;
+    protected String phone;
 
     public String getName() {
         return name;
