@@ -10,7 +10,8 @@ public class University {
 
         System.out.println(p.showInfo());
 
-        Student s = new Student("Rodrigo", "rodrigo@rodrigo.com", "987654321", 666,"Music");
+        Student s = new Student("Rodrigo", "rodrigo@rodrigo.com", "987654321", 666,
+                "Music");
 //        s.setName("Rodrigo");
 //        s.setEmail("rodrigo@rodrigo.com");
 //        s.setPhone("987654321");
