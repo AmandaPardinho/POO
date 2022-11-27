@@ -13,5 +13,11 @@ public class PIBank {
         System.out.println(b1);
         System.out.println(b2);
 
+        b1.withdraw(80.00);
+        b2.withdraw(580.00);
+
+        System.out.println(b1);
+        System.out.println(b2);
+
     }
 }
