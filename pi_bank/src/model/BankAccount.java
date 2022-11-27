@@ -14,6 +14,18 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public void deposit(double value){
+        this.balance += value;
+    }
+
+    public boolean withdraw(double value){
+        if(balance >= value){
+            balance -= value;
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public String toString(){
         return "Name: " + holderName + ", " + "CPF: " + cpf + ", " + "Account Number: " + number + ", " + "Balance: " +
