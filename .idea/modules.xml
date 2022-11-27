@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/employee/employee.iml" filepath="$PROJECT_DIR$/employee/employee.iml" />
       <module fileurl="file://$PROJECT_DIR$/heritage/heritage.iml" filepath="$PROJECT_DIR$/heritage/heritage.iml" />
       <module fileurl="file://$PROJECT_DIR$/memory/memory.iml" filepath="$PROJECT_DIR$/memory/memory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pi_bank/pi_bank.iml" filepath="$PROJECT_DIR$/pi_bank/pi_bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/projectstatic/projectstatic.iml" filepath="$PROJECT_DIR$/projectstatic/projectstatic.iml" />
       <module fileurl="file://$PROJECT_DIR$/time/time.iml" filepath="$PROJECT_DIR$/time/time.iml" />
     </modules>
