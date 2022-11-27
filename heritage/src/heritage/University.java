@@ -3,7 +3,7 @@ package heritage;
 public class University {
     public static void main(String[] args) {
 
-        Person p = new Person();
+        Person p = new Person("Amanda", "amanda@amanda.com", "123456789");
         p.setName("Amanda");
         p.setEmail("amanda@amanda.com");
         p.setPhone("123456789");
