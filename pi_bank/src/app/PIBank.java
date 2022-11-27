@@ -1,5 +1,12 @@
-public class Main {
+package app;
+
+import model.BankAccount;
+
+public class PIBank {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        BankAccount b1 = new BankAccount("Amanda", "55588877711", 963741, 200.00);
+
+        System.out.println(b1);
+
     }
 }
