@@ -21,8 +21,8 @@ public class Student extends Person {
     }
 
     public String showInfo() {
-        return "Name: " + name + ", " + "E-mail: " + email + ", " + "Phone: " + phone + ", " +
-                "Registration Number: " + registrationNumber + ", " + "Course: " + course;
+        return "Name: " + super.name + ", " + "E-mail: " + super.email + ", " + "Phone: " + super.phone + ", " +
+                "Registration Number: " + this.registrationNumber + ", " + "Course: " + this.course;
 
     }
 }
