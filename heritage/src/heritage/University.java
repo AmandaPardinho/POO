@@ -14,7 +14,7 @@ public class University {
         s.setName("Rodrigo");
         s.setEmail("rodrigo@rodrigo.com");
         s.setPhone("987654321");
-        s.setRegistrationNumber("666");
+        s.setRegistrationNumber(666);
         s.setCourse("Music");
 
         System.out.println(s.showInfo());
