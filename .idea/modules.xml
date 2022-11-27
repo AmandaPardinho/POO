@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/pi_bank/pi_bank.iml" filepath="$PROJECT_DIR$/pi_bank/pi_bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/projectstatic/projectstatic.iml" filepath="$PROJECT_DIR$/projectstatic/projectstatic.iml" />
       <module fileurl="file://$PROJECT_DIR$/time/time.iml" filepath="$PROJECT_DIR$/time/time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface/v1_interface.iml" filepath="$PROJECT_DIR$/interface/v1_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v2_interface/v2_interface.iml" filepath="$PROJECT_DIR$/v2_interface/v2_interface.iml" />
     </modules>
   </component>
 </project>
